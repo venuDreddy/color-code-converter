@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color || converter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="center">
+      <!-- start of single conversion -->
+      <article class="hex-rgb">
+        <h3>HEX : #RRGGBB</h3>
+        <form>
+          <input type="text" placeholder="#ffffff" class="hex" />
+          <button class="hex-btn">convert</button>
+        </form>
+        <h4 id="hex-heading"></h4>
+      </article>
+      <!-- end of single conversion -->
+      <div class="vice-versa">&#8652;</div>
+      <!-- start of single conversion -->
+      <article class="rgb-hex">
+        <h3>RGB : RED,GREEN,BLUE</h3>
+        <form>
+          <input type="text" placeholder="255,255,255" class="rgb" />
+          <button class="rgb-btn">convert</button>
+        </form>
+        <h4 id="rgb-heading"></h4>
+      </article>
+      <!-- end of single conversion -->
+
+      <div class="vice-versa">&#8652;</div>
+
+      <!-- start of single conversion -->
+      <article class="hsl-rgb">
+        <h3>HSL : Hue,Saturation,Lightness</h3>
+        <form>
+          <input type="text" placeholder="0,0,100" class="hsl" />
+          <button class="hsl-btn">convert</button>
+        </form>
+        <h4 id="hsl-heading"></h4>
+      </article>
+      <!-- end of single conversion -->
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
